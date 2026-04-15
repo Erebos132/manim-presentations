@@ -28,7 +28,7 @@ class OwnScene(Scene):
 
         print(f"\nSaved segments to: {path}\n")
 
-class TestingScene(OwnScene):
+class MainScene(OwnScene):
     def construct(self):
         self.segment("First_Point")
         circle = Circle(2, BLUE)

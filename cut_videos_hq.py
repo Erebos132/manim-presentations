@@ -1,7 +1,7 @@
 import json
 import subprocess
 
-VIDEO_FILE = "./media/videos/scenes/1080p60/TestingScene.mp4"
+VIDEO_FILE = "./media/videos/scenes/1080p60/MainScene.mp4"
 SEGMENTS_FILE = "./media/videos/scenes/1080p60/segments.json"
 dir = "./splitted"
 
@@ -39,3 +39,4 @@ for i in range(len(segments)):
     subprocess.run(cmd)
 
 print("\nDone splitting!")
+

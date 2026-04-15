@@ -1,8 +1,8 @@
 import json
 import subprocess
 
-VIDEO_FILE = "./media/videos/scenes/1080p60/TestingScene.mp4"
-SEGMENTS_FILE = "./media/videos/scenes/1080p60/segments.json"
+VIDEO_FILE = "./media/videos/scenes/480p15/MainScene.mp4"
+SEGMENTS_FILE = "./media/videos/scenes/480p15/segments.json"
 dir = "./splitted"
 
 with open(SEGMENTS_FILE) as f:
